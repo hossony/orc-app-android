@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Hossony Orçamentos",
+    "slug": "hossony-orcamentos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "hossony",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#15110d"
+    },
+    "android": {
+      "package": "com.hossony.orcamentos",
+      "adaptiveIcon": {
+        "backgroundColor": "#5a2f12",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "softwareKeyboardLayoutMode": "resize",
+      "permissions": []
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O app usa suas fotos apenas para escolher a logo da luthieria."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
